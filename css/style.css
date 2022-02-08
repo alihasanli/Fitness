@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Source+Sans+3&display=swap');
+:root {
+    --yasil: #a1c927;
+    --qirmizi: #fd634d;
+}
+header {
+    position: relative;
+    height: 100vh;
+    background: url('../img/headerbg.jpg') center/cover fixed;
+    text-align: center;
+}
+#title, nav {
+    position: absolute;
+    width: 100%;
+}
+nav { padding: 40px 50px }
+menu { padding: 20px 0}
+#title { bottom: 20vh }
+
+#menu li a {
+    font: .8em/1.5 Lato, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+h1 {
+    font: 2em/1.5 Poppins, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+h5 {
+    font: .9em/2  Poppins, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+#fitnessbg { background: url('../img/fitnessbg.jpg') center/cover }
+#bodybg { background: url('../img/bodybg.jpg') center/cover }
+.container { max-width: 100vh; margin: auto }
+.yasilbg { background: var(--yasil) }
+.qirmizibg { background: var(--qirmizi) }
+.agbg { background: #FFF }
+.yasiltxt { color: var(--yasil) }
+.qirmizitxt { color: var(--qirmizi) }
+.agtxt { color: #fff }
+.vh50 { height: 50vh }
+#lifestylebg { background: url('../img/lifestylebg.jpg') center/cover }
+#summerbg { background: url('../img/summerbg.jpg') center/cover }
+#avocadobg { background: url('../img/avocadobg.jpg') center/cover }
+#grapebg { background: url('../img/grapebg.jpg') center/cover }
+#bigideabg { 
+    background: url('../img/bigideabg.jpg') center/cover;
+    height: 80vh;
+}
+#footerbg { 
+    background: #0c1119; 
+    height: 100vh;
+}
+.uppercase { text-transform: uppercase}
+
+.yasilbg .rtcc { padding-top: 110px }
+.yasilbg .rtcci { 
+    font-size: 3em; 
+    display: block;
+    text-align: center;
+}
+.yasilbg .rtcch3 {
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Open Sans", sans-serif;
+}
+.yasilbg .rtccp { 
+    font-family: "Source Sans 3", sans-serif; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+.yasilbg .rtcca { 
+    font-family: "Source Sans 3",sans-serif; 
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.yasilbg .ffh6 { 
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-family: 0.8em;
+    padding-top: 40px;
+}
+.yasilbg .ffh2 { 
+    text-align: center;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 1.5em;
+    padding: 20px 0; 
+}
+.yasilbg .ffi { 
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    color: #9fa0a1;
+    padding-bottom: 20px;
+}
+.yasilbg .ffp {
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    color: #656e74;
+}
+.yasilbg .ffa { 
+    display: block;
+    text-align: center; 
+    font-family: "Source Sans 3",sans-serif;
+    text-decoration: underline;
+}
+.qirmizibg .tyh6 { 
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-family: 0.8em;
+    padding: 0 0 20px 0;
+}
+.qirmizibg .tyh2 { 
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 20px; 
+}
+.qirmizibg .tyi { 
+    text-align: center;
+    display: block;
+    padding: 40px 0 20px 0;
+    font-size: 2em;
+    color: #9fa0a1;
+}
+.qirmizibg .typ {
+    color: #656e74;
+    font-family: "Source Sans 3", sans-serif;
+    text-align: center;
+}
+.qirmizibg .sfh2 {
+    font-family: "Nanum Gothic", sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 100px 0 20px 0;
+}
+.qirmizibg .sfp {
+    font-family: "Source Sans 3", sans-serif;
+    text-align: center;
+}
+.qirmizibg .ty2h6 {
+    text-align: center;
+    font-size: 0.8em;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 0 20px 0;
+}
+.qirmizibg .ty2h2 {
+    text-align: center;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+.qirmizibg .ty2i {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    color: #9fa0a1;
+    padding: 40px 0 20px 0;
+}
+.qirmizibg .ty2p {
+    font-family: "Source Sans 3", sans-serif;
+    text-align: center;
+    color: #656e74;
+}
+.qirmizibg .iyh6 {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 0.8em; 
+    padding-top: 20px;               
+}
+.qirmizibg .iyh2 {
+    font-family: "Source Sans 3", sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px 0;
+}
+.qirmizibg .iyi {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    color: #FFF;
+    padding-top: 40px
+}
+.qirmizibg .iyp {
+    font-family: "Source Sans 3", sans-serif;
+    text-align: center;
+}
+.yasilbg .auh6 {
+    float: right;
+    padding:  330px 5px 50px 0;
+    color: var(--qirmizi);
+    font-family: "Source Sans 3", sans-serif;
+}
+.yasilbg .aui {
+    float: right;
+    color: var(--qirmizi);
+    padding:  330px 40px 50px 0;
+}
+.yasilbg .puh6 {
+    color: #FFF;
+    font-family: "Source Sans 3", sans-serif;
+    padding: 340px 5px 0 5px;
+    display: inline-block
+}
+.yasilbg .pui {
+    color: var(--qirmizi);
+    text-align: right;
+}
+.qirmizibg .summerh6 {
+    font-family: "Source Sans 3", sans-serif;
+    color: #FFF;
+    padding: 20px 0 0 5px;
+}
+.qirmizibg .summer2h6 {
+    color: #FFF;
+    font-family: "Source Sans 3", sans-serif;
+    padding: 20px 0 0 5px;  
+}
+#bigideabg .bigh2 {
+    font-family: "Source Sans 3", sans-serif;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 1.7em;
+}
+#bigideabg .bigp {
+    font-family: "Source Sans 3", sans-serif;
+    text-align: center;
+    padding-top: 20px ;
+}
+.footertxt { 
+    color:#8297a7;
+    font-family: "Source Sans 3", sans-serif;
+    text-align: center;
+}
+.footerh6 {
+    color:#FFF;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+.footericons { 
+    text-align: center;
+    padding: 40px 0;
+}
+#fb { 
+    color: #2e3192;
+    font-size: 2em;
+    padding-right: 10px;
+}
+#tt { 
+    color: #00aeef;
+    font-size: 2em;
+    padding-right: 10px;
+}
+#yt { 
+    color: #ed3123;
+    font-size: 2em;
+    padding-right: 10px;
+}
+#in { 
+    color: #171a8f;
+    font-size: 2em;
+    padding-right: 10px;
+}
+#row2 { text-align: center;}
+button {
+    width: 201px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: var(--yasil);
+    color: #FFF;
+}
+button:hover, button:active { text-shadow: 0 0 7px rgb(132, 185, 88);}
+footer input {
+    width: 340px;
+    height: 43px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+    header { text-align: inherit; }
+    #title { width: inherit; padding: 0 0 0 115px;}
+    h5 { text-align: right; padding: 0 20px}
+    #menu { float: right }
+    #menu li { 
+        display: inline-block;
+        margin: 0 30px;
+    }
+    h1 { font-size: 2.5em }
+    .floatleft { float: left }
+    .floatright { float: right }
+    .w25 { width: 25% }
+    .row::after { 
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .w34 { width: 34% }
+    .w66 { width: 66% }
+    .fw33 { width: 33% }
+    .fw34 { width: 34% }
+    .yasilbg .rtcc { padding: 110px 50px 0 0 }
+    .yasilbg .rtcc:last-child { padding: 110px 0 0 0; }
+
+    #fitnessbg { background: url('../img/fitnessbg.jpg') center/cover }
+    #bodybg { background: url('../img/bodybg.jpg') center/cover }
+    .container { max-width: 1180px; margin: auto }
+    .yasilbg { background: var(--yasil) }
+    .qirmizibg { background: var(--qirmizi) }
+    .agbg { background: #FFF }
+    .yasiltxt { color: var(--yasil) }
+    .qirmizitxt { color: var(--qirmizi) }
+    .agtxt { color: #fff }
+    .vh50 { height: 50vh }
+    #lifestylebg { background: url('../img/lifestylebg.jpg') center/cover }
+    #summerbg { background: url('../img/summerbg.jpg') center/cover }
+    #avocadobg { background: url('../img/avocadobg.jpg') center/cover }
+    #grapebg { background: url('../img/grapebg.jpg') center/cover }
+    #bigideabg { 
+        background: url('../img/bigideabg.jpg') center/cover;
+        height: 90vh;
+    }
+    #footerbg { 
+        background: #0c1119; 
+        height: 60vh;
+    }
+    .uppercase { text-transform: uppercase}
+
+    .yasilbg .rtcc { padding-top: 110px }
+    .yasilbg .rtcci { 
+        font-size: 3em; 
+        text-align: inherit;
+    }
+    .yasilbg .rtcch3 {
+        padding: 25px 0 30px 0;
+        font-family: "Open Sans", sans-serif;
+        text-align: inherit;
+    }
+    .yasilbg .rtccp { 
+        font-family: "Source Sans 3", sans-serif; 
+        margin-bottom:  25px; 
+        text-align: inherit;
+    }
+    .yasilbg .rtcca { font-family: "Source Sans 3",sans-serif; text-align: inherit;}
+    .yasilbg .ffh6 { 
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+    }
+    .yasilbg .ffh2 { 
+        text-align: center; 
+        font-family: "Nanum Gothic", sans-serif;
+        font-size: 1.7em;
+    }
+    .yasilbg .ffi { 
+        text-align: center;
+        font-size: 1.3em;
+        color: #9fa0a1;
+    }
+    .yasilbg .ffp {
+        padding: 0 45px 15px 45px;
+        font-family: "Source Sans 3", sans-serif;
+        color: #656e74;
+    }
+    .yasilbg .ffa { 
+        text-align: center;
+        font-family: "Source Sans 3",sans-serif;
+    }
+    .qirmizibg .tyh6 { 
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+    .qirmizibg .tyh2 { 
+        text-align: center;
+        font-family: "Nanum Gothic", sans-serif;
+        font-size: 1.7em;
+    }
+    .qirmizibg .tyi { 
+        text-align: center;
+        font-size: 2em;
+        color: #9fa0a1;
+    }
+    .qirmizibg .typ {
+        padding: 0px 60px 0 40px;
+        color: #656e74;
+        font-family: "Source Sans 3", sans-serif;
+    }
+    .qirmizibg .sfh2 {
+        font-family: "Nanum Gothic", sans-serif;
+        text-align: left;
+        padding: 40px 400px 40px 20px;
+        font-size: 1.5em;
+    }
+    .qirmizibg .sfp {
+        font-family: "Source Sans 3", sans-serif;
+        padding: 0 110px 150px 20px;
+        text-align: left;
+    }
+    .qirmizibg .ty2h6 {
+        padding: 20px 0 0 0;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+    }
+    .qirmizibg .ty2h2 {
+        padding: 20px 0 20px 0;
+        text-align: center;
+        font-family: "Nanum Gothic", sans-serif;
+        font-size: 1.7em;
+    }
+    .qirmizibg .ty2i {
+        text-align: center;
+        font-size: 2em;
+        color: #9fa0a1;
+        padding: 40px 0 0 0;
+    }
+    .qirmizibg .ty2p {
+        font-family: "Source Sans 3", sans-serif;
+        padding: 0 70px 100px 45px;
+        color: #656e74;
+    }
+    .qirmizibg .iyh6 {
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        padding: 20px 0 0 0;                
+    }
+    .qirmizibg .iyh2 {
+        font-family: "Source Sans 3", sans-serif;
+        text-align: center;
+        padding: 20px 0 0 0;
+        font-size: 1.7em;
+    }
+    .qirmizibg .iyi {
+        text-align: center;    
+        padding: 40px 0 0 0;
+        font-size: 2em;
+        color: #FFF
+    }
+    .qirmizibg .iyp {
+        font-family: "Source Sans 3", sans-serif;
+        padding: 20px 50px 70px 40px;
+    }
+    .yasilbg .auh6 {
+        float: right;
+        padding:  330px 5px 50px 0;
+        color: var(--qirmizi);
+        font-family: "Source Sans 3", sans-serif;
+    }
+    .yasilbg .aui {
+        float: right;
+        color: var(--qirmizi);
+        padding:  330px 40px 50px 0;
+    }
+    .yasilbg .puh6 {
+        color: #FFF;
+        font-family: "Source Sans 3", sans-serif;
+        padding: 330px 5px 50px 50px;
+        display: inline-block;
+    }
+    .yasilbg .pui {
+        color: var(--qirmizi);
+        padding: 330px 305px 50px 0px;
+    }
+    .qirmizibg .summerh6 {
+        display: inline-block ;
+        font-family: "Source Sans 3", sans-serif;
+        color: #FFF;
+        padding: 20px 0 0 10px;
+    }
+    .qirmizibg .summer2h6 {
+        padding: 20px 10px 0 0;
+        float: right;
+        color: #FFF;
+        font-family: "Source Sans 3", sans-serif;    
+    }
+    #bigideabg .bigh2 {
+        font-family: "Source Sans 3", sans-serif;
+        text-align: center;
+        padding-top: 250px;
+        font-size: 2.5em;
+    }
+    #bigideabg .bigp {
+        font-family: "Source Sans 3", sans-serif;
+        text-align: center;
+        padding-top: 30px ;
+    }
+    .footertxt { 
+        color:#8297a7;
+        font-family: "Source Sans 3", sans-serif;
+        padding: 30px 0 50px 0
+    }
+    .footerh6 {
+        color:#FFF;
+        font-family: "Source Sans 3", sans-serif;
+        margin-top: 50px; 
+    }
+    
+    #fb { 
+        color: #2e3192;
+        font-size: 2em;
+        text-align: center;
+    }
+    #tt { 
+        color: #00aeef;
+        font-size: 2em;
+        text-align: center;
+    }
+    #yt { 
+        color: #ed3123;
+        font-size: 2em;
+        text-align: center;
+    }
+    #in { 
+        color: #171a8f;
+        font-size: 2em;
+        text-align: center;
+    }
+    #row2 { text-align: center }
+    button {
+        width: 201px;
+        height: 49px;
+        border-radius: 5px;
+        background-color: var(--yasil);
+        color: #FFF;
+    }
+    button:hover, button:active { text-shadow: 0 0 7px rgb(132, 185, 88);}
+    footer input {
+        width: 340px;
+        height: 43px;
+        border-radius: 5px;
+        background-color: #ffffff;
+    }  
+    
+}
